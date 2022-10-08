@@ -134,6 +134,13 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "ESGI ”Graduate School of Computer Engineering”",
+      logo: require("./assets/images/esgiLogo.png"),
+      subHeader: "Master of Science in Cloud Computing",
+      duration: "October 2019 - 2021",
+      desc: "faced every aspect of cloud computing, from virtualisation concepts to the ethic & law that cloud computing of nowdays is based on.",
+    },
+    {
       schoolName: "University of science and technology of Oran",
       logo: require("./assets/images/ustoLogo.png"),
       subHeader: "Master Degree in Networks and distributed information systems",
@@ -150,13 +157,6 @@ const educationInfo = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
-    {
-      schoolName: "ESGI ”Graduate School of Computer Engineering”",
-      logo: require("./assets/images/esgiLogo.png"),
-      subHeader: "Master of Science in Cloud Computing",
-      duration: "October 2019 - 2021",
-      desc: "faced every aspect of cloud computing, from virtualisation concepts to the ethic & law that cloud computing is based on",
     }
   ]
 };
@@ -192,9 +192,9 @@ const workExperiences = {
       company: "blurry.ai",
       companylogo: require("./assets/images/blurrylogo.png"),
       date: "january 2021 – september 2022",
-      desc: "mid DevOps engineer",
+      // desc: "mid DevOps engineer",
       descBullets: [
-        "",
+        "Continuously improving the way to deploy software and services, always automating manual using tools or scripts builds and integration.",
         "Monitoring managed systems including application and database services, using alerts and log management tools; taking corrective actions as required."
       ]
     },
@@ -202,10 +202,10 @@ const workExperiences = {
       role: "Junior DevOps Engineer",
       company: "Freelancing",
       companylogo: require("./assets/images/backend.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "July 2020 - Dec 2020",
       descBullets: [
         "Implement DevOps capabilities using CI/CD tool.",
-        "Identify and implement new tools, technologies, and processes to accelerate developer velocity within our teams.",
+        "Identify and implement new tools, technologies, and processes to accelerate developer velocity within the team.",
         "working with software developers and software engineers to ensure that development follows established processes and works as intended."
       ]
     },
@@ -213,8 +213,12 @@ const workExperiences = {
       role: "Backend Developer",
       company: "Freelancing",
       companylogo: require("./assets/images/backend.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Aug 2019 - July 2020",
+      descBullets: [
+        "Participated development of technical specifications and plans.",
+        "Full participation in the Agile Scrum process.",
+        "Assist the engineering team with feature backend development, using design patterns and SOLID principals."
+      ]
     }
   ]
 };
@@ -257,7 +261,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
