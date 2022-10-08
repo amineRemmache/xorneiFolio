@@ -39,7 +39,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          <i className="fab fa-google"></i>
           <span></span>
         </a>
       ) : null}
@@ -124,6 +124,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>  
+      ) : null}
+
+      {socialMediaLinks.reddit ? (
+        <a
+          href={socialMediaLinks.reddit}
+          className="icon-button reddit"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-reddit"></i>
           <span></span>
         </a>
       ) : null}
