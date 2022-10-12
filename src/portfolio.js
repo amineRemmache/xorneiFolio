@@ -23,7 +23,7 @@ const greeting = {
   username: "Amine Remmache",
   title: "Hi all, I'm Amine / Xornei",
   subTitle: emoji(
-    "A passionate DevOps & Software Engineer 🚀 having an experience of deploying and developping scalable SaaS applications with JavaScript / Nestjs / Nodejs / kubernetes and some other opertions tools and frameworks."
+    "A passionate DevOps & Software Engineer 🚀 having an experience of deploying and developping scalable SaaS applications with JavaScript / Nestjs / Nodejs / kubernetes and some other opertionnal tools and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1B3EjzmzMxQ24BxKI8zaFKHU3LSzxZTwi/view?usp=sharing", // Set to empty to hide the button
@@ -38,7 +38,6 @@ const socialMediaLinks = {
   gmail: "amine.med.remmache@gmail.com",
   gitlab: "https://gitlab.com/bluesy_xornet",
   medium: "https://medium.com/@amine.med.remmache",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   reddit:"https://www.reddit.com/user/Bluesy_Xornet69",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -49,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "an ambitious DevOps & software engineer,  ",
+  subTitle: "an ambitious DevOps & software engineer, obsessed with technology since i was a teenager.",
   skills: [
     emoji(
       "⚡ Deploy high availability required native cloud applications."
