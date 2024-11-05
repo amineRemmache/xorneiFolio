@@ -275,7 +275,7 @@ const achievementSection = {
       title: "Qt 5 Core Intermediate with C++",
       subtitle:
         "explored design patterns principals and different built-in functions in QT.",
-      image: require("./assets/images/qtlogo.svg"),
+      image: require("./assets/images/qtlogo.png"),
       imageAlt: "QT c++ Logo",
       footerLink: [
         {
@@ -396,6 +396,15 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -430,5 +439,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
+  resumeSection
 };
