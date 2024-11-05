@@ -275,7 +275,7 @@ const achievementSection = {
       title: "Qt 5 Core Intermediate with C++",
       subtitle:
         "explored design patterns principals and different built-in functions in QT.",
-      image: require("./assets/images/qtlogo.svg"),
+      image: require("./assets/images/qtlogo.png"),
       imageAlt: "QT c++ Logo",
       footerLink: [
         {
