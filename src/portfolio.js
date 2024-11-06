@@ -55,7 +55,7 @@ const skillsSection = {
     ),
     emoji("⚡ Automating manual tasks, and improve pipeplines from dev to prod."),
     emoji(
-      "⚡ I can manage any cluster based on linux's distributions Or Windows Server"
+      "⚡ I can manage any cluster based on linux's distributions Or Windows Server."
     )
   ],
 
@@ -188,35 +188,46 @@ const workExperiences = {
   experience: [
     {
       role: "DevOps Engineer",
+      company: "kostango.com",
+      companylogo: require("./assets/images/kostango_logo.png"),
+      date: "march 2023 – august 2024",
+      descBullets: [
+        "adapted with a huge code base and met all requirements within three months only.",
+        "Established a daily monitoring routine and issue tracking system, achieving a median resolution rate of five bugs per day.",
+        "Persistently developed and maintained automation scripts for builds, deployments, testing, and cron jobs to streamline operations.",
+        "optimized, maintained & re-designed CI/CD pipeline, accelerating execution time by 60% and enhancing scalability with Ansible and a custom CLI tool.",
+        "Played a key role in designing and implementing scalable, fault-tolerant architectures with zero downtime.",
+        "securing & enhancing data migration process reducing its cost & chances of data loss.",
+        "Successfully managed and delivered 3 backend tasks."
+      ]
+    },
+    {
+      role: "DevOps Engineer",
       company: "blurry.ai",
       companylogo: require("./assets/images/blurrylogo.png"),
       date: "january 2021 – september 2022",
-      // desc: "mid DevOps engineer",
       descBullets: [
-        "Continuously improving the way to deploy software and services, always automating manual using tools or scripts builds and integration.",
-        "Monitoring managed systems including application and database services, using alerts and log management tools; taking corrective actions as required."
+        "Continuously improving the way to deploy software and services, always automating manual tasks using tools or scripts, builds and integrations.",
+        "Designed and deployed a CI/CD pipeline from scratch using GitLab, automating build, test, and deployment processes for faster and more reliable software delivery.",
+        "Implemented a disaster recovery plan using Infrastructure as Code (IaC - Terraform) and configuration management tools (Ansible), achieving full automation for swift recovery and minimal downtime in critical scenarios.",
+        "Measure and performance of Cloud solutions to achieve the best use of cloud resources.",
+        "Identify, tackle and mitigate real-world Cloud deployment problems, incidents and security vulnerabilities.",
+        "Participate in code reviews and knowledge transfers.",
       ]
     },
     {
-      role: "Junior DevOps Engineer",
+      role: "DevOps and Backend Engineer",
       company: "Freelancing",
       companylogo: require("./assets/images/backend.png"),
-      date: "July 2020 - Dec 2020",
+      date: "Oct 2020 - July 2020",
       descBullets: [
-        "Implement DevOps capabilities using CI/CD tool.",
-        "Identify and implement new tools, technologies, and processes to accelerate developer velocity within the team.",
-        "working with software developers and software engineers to ensure that development follows established processes and works as intended."
-      ]
-    },
-    {
-      role: "Backend Developer",
-      company: "Freelancing",
-      companylogo: require("./assets/images/backend.png"),
-      date: "Aug 2019 - July 2020",
-      descBullets: [
-        "Participated development of technical specifications and plans.",
-        "Full participation in the Agile Scrum process.",
-        "Assist the engineering team with feature backend development, using design patterns and SOLID principals."
+        "Delivered and contributed to various projects, taking on diverse responsibilities across DevOps, backend development, and infrastructure management.",
+        "Designed and implemented CI/CD pipelines with tools like Jenkins, GitLab CI/CD, and Docker to streamline and automate deployments.",
+        "Managed and optimized scalable, secure cloud infrastructure on AWS, GCP, and Azure, adapting environments to fit project demands.",
+        "Automated infrastructure setup and configuration management using Terraform and Ansible, ensuring consistency and efficiency across deployments.",
+        "Developed RESTful APIs and microservices with Django, nest.js, creating robust backend solutions for client applications.",
+        "Set up monitoring and logging solutions using Prometheus, Grafana, and ELK Stack to proactively maintain system health and performance.",
+        "Documented workflows and effective team communication, ensuring smooth collaboration and successful project delivery.",
       ]
     }
   ]
@@ -271,6 +282,33 @@ const achievementSection = {
   subtitle:
     "Certifications that i have completed during my cursus.",
   achievementsCards: [
+    {
+      title: "Certified Kubernetes Administrator (CKA) with Practice Tests",
+      subtitle:
+        // "Comprehensive overview of Kubernetes, covering core concepts and architecture with complete practical demonstrations of production-ready setups."
+        "Covered Kubernetes core concepts, production setups, scaling, security, and CI/CD integration.",
+      image: require("./assets/images/kubernetes.png"),
+      imageAlt: "Kubernetes Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-a31c55cd-a16a-466d-aeb0-a5990f557284/"
+        }
+      ]
+    },
+    {
+      title: "Ultimate AWS Certified Solutions Architect Associate SAA-C03",
+      subtitle:
+        "Learned AWS architecture, core services, security, and best practices for the SAA-C03 exam.",
+      image: require("./assets/images/aws.png"),
+      imageAlt: "AWS Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-bc88745d-cda4-4a2b-8a36-b1ab0d48605f/"
+        }
+      ]
+    },
     {
       title: "Qt 5 Core Intermediate with C++",
       subtitle:
